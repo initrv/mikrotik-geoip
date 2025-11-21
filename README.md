@@ -20,13 +20,7 @@ A lightweight FastAPI application that generates MikroTik RouterOS (`.rsc`) scri
 
 ### Option 1: Docker (Recommended)
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd geoip
-    ```
-
-2.  **Start the service:**
+1.  **Start the service:**
     ```bash
     docker compose up --build -d
     ```
