@@ -25,7 +25,7 @@ A lightweight FastAPI application that generates MikroTik RouterOS (`.rsc`) scri
     docker compose up --build -d
     ```
 
-The service will be available at `http://localhost:8000`.
+The service will be available at `http://localhost:8083`.
 
 ### Option 2: Local Installation
 
