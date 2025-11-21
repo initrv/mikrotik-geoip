@@ -75,8 +75,8 @@ You can use the service directly from your MikroTik router using the `/tool fetc
 **Example RouterOS Script:**
 
 ```routeros
-/tool fetch url="http://<YOUR_SERVER_IP>:8000/geoip/ru" mode=http dst-path="geoip-ru.rsc"
-/import geoip-ru.rsc
+/tool fetch url="http://<YOUR_SERVER_IP>:<PORT>/geoip/ru" mode=http dst-path="MikroTik-GeoIP-ru.rsc"
+/import MikroTik-GeoIP-ru.rsc
 ```
 
 *Replace `<YOUR_SERVER_IP>` with the IP address of the machine running this service.*
